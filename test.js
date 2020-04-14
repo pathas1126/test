@@ -2,7 +2,7 @@
 function hello() {
   console.log("hello");
 }
-hello();
+hello("yanded");
 
 /* 매개변수 O, 반환값 X */
 function sayHello(name) {
