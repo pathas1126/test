@@ -2,7 +2,7 @@
 function name() {
   console.log("kimjeongseok");
 }
-name("kjs");
+name();
 
 /* 매개변수 O, 반환값 X */
 function sayName(spring) {
@@ -39,7 +39,7 @@ function print({ name, actor }) {
 }
 print(kimjeongseok);
 
-// === 객체[배열?] 구조 분해 ===
+// === 배열 구조 분해 ===
 const array = [1, 2, "김긍정", false, 5];
 console.log(array);
 
